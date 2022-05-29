@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+    <title>zad9</title>
+ </head>
+<body>
+    <h3>HTML:</h3> 
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pl-PL"&gt;
+ &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;zad9&lt;/title&gt;
+ &lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;Zewnętrzny arkusz stylów &lt;/h2&gt;
+&lt;h4&gt;Składnia teoretyczna:&lt;/h4&gt;
+&lt;head&gt; &lt;br&gt;
+&nbsp&nbsp(...) &lt;br&gt;
+&nbsp&nbsp&nbsp&nbsp&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt; &lt;br&gt;
+&nbsp&nbsp(...) &lt;br&gt;
+&lt;/head&gt; &lt;br&gt;
+&lt;p&gt;
+gdzie&lt;b&gt; "style.css" &lt;/b&gt;jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne &lt;br&gt;
+polecenia, które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej. &lt;br&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Wstawienie&lt;/b&gt; wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy &lt;br&gt;
+znacznikami &lt;head&gt; a &lt;/head&gt;), przedstawioną powyżej linijkę: &lt;br&gt; &lt;/p&gt;
+&lt;p&gt;
+&lt;link rel="Stylesheet" type="text/css" href="style.css" /&gt; &lt;br&gt;
+&lt;/p&gt;
+Uwagi na temat zewnętrznych CSS: &lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt; Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu. &lt;br&gt; &lt;/li&gt;
+(sekcja &lt;b&gt;head&lt;/b&gt; ) &lt;br&gt;
+&lt;li&gt;  można dołączyć &lt;b&gt;&lt;u&gt;dowolną liczbę&lt;/u&gt;&lt;/b&gt; zewnętrznych arkuszy stylów &lt;br&gt; - każdy jako osobny element &lt;link rel="Stylesheet" /&gt;. &lt;br&gt;&lt;/li&gt;
+ &lt;li&gt;W przypadku &lt;b&gt;&lt;u&gt;konfliktów&lt;/u&gt;&lt;/b&gt;, ważniejsze będą deklaracje z arkusza dołączonego później. &lt;br&gt; &lt;/li&gt;
+&lt;li&gt; Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i &lt;br&gt;
+edytowania wystarczy zwykły edytor tekst. &lt;br&gt; &lt;/li&gt;
+&lt;li&gt; Można się posłużyć specjalnym &lt;b&gt;edytorem CSS&lt;/b&gt;. &lt;br&gt;
+ Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć &lt;br&gt;
+rozszerzenie &lt;b&gt;*.css&lt;/b&gt; &lt;br&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;u&gt;Zalety zewnętrznego arkusza styli: &lt;/u&gt;&lt;br&gt;
+1)wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy. &lt;br&gt;
+2) jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich &lt;br&gt;
+stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez &lt;br&gt;
+konieczności zmiany każdej strony osobno.  &lt;br&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+</body>
+</html>

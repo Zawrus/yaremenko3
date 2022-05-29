@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+    <title>zad16</title>
+ </head>
+<body>
+   <h3>HTML:</h3> 
+   <pre>
+   &lt;!DOCTYPE html&gt;
+   &lt;html lang="pl-PL"&gt;
+    &lt;head&gt;
+       &lt;meta charset="utf-8"&gt;
+       &lt;title&gt;zad16&lt;/title&gt;
+    &lt;/head&gt;
+   &lt;body&gt;
+   &lt;h1&gt;Znacznik &lt;div&gt;&lt;/h1&gt;
+    &lt;p&gt;
+   &lt;div style="cecha: wartość; cecha2: wartość2..."&gt;...&lt;/div&gt; &lt;br&gt;
+    &lt;/p&gt;
+   1. Element blokowy (DIV) jest elementem blokowym może zawierać wewnątrz siebie &lt;br&gt;
+    zwykły tekst, jak również inne elementy blokowe. Został on pomyślany do tworzenia &lt;br&gt;
+    obszerniejszych struktur. &lt;br&gt;
+   2. Z div'a powinno się korzystać kiedy potrzebujemy wyodrębnić poszczególne bloki w &lt;br&gt;
+    układzie dokumentu, na przykład lewa kolumna, menu nawigacyjne, stopka. &lt;br&gt;
+   3. Służy do utworzenia sekcji (bloku) w pliku HTML w celu ich sformatowania za &lt;br&gt;
+    pomocą arkusza stylów CSS. &lt;br&gt;
+   4. DIV odgrywa istotną rolę w grupowaniu wielu różnych elementów i pozycjonowaniu &lt;br&gt;
+    fragmentów dokumentu. &lt;br&gt;
+   ALIGN="ustawienie" &lt;br&gt;
+   Poziome ustawienie (wyrównanie) z uwzględnieniem otoczenia (zdeprecjonowane): &lt;br&gt;
+   center - wyśrodkowanie &lt;br&gt;
+   justify - wyrównanie do obu marginesów jednocześnie &lt;br&gt;
+   left - wyrównanie do lewej &lt;br&gt;
+   right - wyrównanie do prawej &lt;br&gt;
+   CLASS="klasa" &lt;br&gt;
+   Przypisuje nazwę klasy (CSS) lub nazwy klas do elementu, które muszą być rozdzielone białymi znakami &lt;br&gt;
+   DIR="kierunek" &lt;br&gt;
+   Kierunek tekstu: &lt;br&gt;
+   ltr - od lewej do prawej &lt;br&gt;
+   rtl - od prawej do lewej &lt;br&gt;
+   ID="nazwa" &lt;br&gt;
+   Przypisuje nazwę elementowi (identyfikator), która nie może się powtarzać w całym dokumencie &lt;br&gt;
+   LANG="język"&lt;br&gt;
+   Informacja o języku bazowym (np.: LANG="en" oznacza angielski, LANG="pl" - polski itd.) &lt;br&gt;
+   STYLE="styl" &lt;br&gt;
+   Informacje stylów (CSS) &lt;br&gt;
+   TITLE="tekst" &lt;br&gt;
+   Tekst pomocniczy &lt;br&gt;
+   Zdarzenia:
+   &nbsp; - onclick, ondblclick, onmousedown, onmouseup, onmouseover, onmousemove,&lt;br&gt;
+    onmouseout, onkeypress, onkeydown, onkeyup &lt;br&gt;
+   &nbsp; - Uwagi: &lt;br&gt;
+   &nbsp; - Znacznik otwierający: wymagany &lt;br&gt;
+   &nbsp; - Znacznik zamykający: wymagany &lt;br&gt;
+    &lt;h1&gt;Znacznik &lt;SPAN&gt; &lt;/h1&gt; &lt;br&gt;
+   1. Elementy wyświetlanie w linii (SPAN) jest elementem liniowym nie mogą zawierać &lt;br&gt;
+    elementów blokowych, ale mogą inne elementy wyświetlane w linii oraz zwykły tekst. &lt;br&gt;
+   2. Jeśli chcemy w paragrafie część tekstu wyróżnić czerwonym kolorem, do &lt;br&gt;
+     wyodrębnienia tego tekstu nie możemy użyć elementu div (paragraf &lt;p&gt; z zasady &lt;br&gt;
+     nie może zawierać elementów blokowych) tylko span. &lt;br&gt;
+   3. Wewnątrz DIV można oczywiście wpisać również SPAN. &lt;br&gt;
+   Składnia teoretyczna: &lt;br&gt;
+    &lt;p&gt;
+   &lt;span style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/span&gt; &lt;br&gt;
+    &lt;/p&gt;
+   Opis: &lt;br&gt;
+   Znacznik &lt;span&gt;...&lt;/span&gt; pozwala na objęcie pewnego większego fragmentu dokumentu.  &lt;br&gt;
+   Pojedynczym znacznikiem &lt;span&gt;...&lt;/span&gt; możemy objąć kilka różnych elementów, które &lt;br&gt;
+   są wyświetlane w linii (sam element SPAN tak właśnie jest wyświetlany), np. wytłuszczenie &lt;br&gt;
+   tekstu oraz kursywę. Element ten tak dobrze nadaje się do osadzania stylów, ponieważ sam w &lt;br&gt;
+   sobie nie ma określonego żadnego formatowania, które mogłoby kolidować z efektem, jaki &lt;br&gt;
+   chcemy uzyskać. &lt;br&gt;
+     &lt;h1&gt; Różnica między znacznikami DIV i SPAN &lt;/h1&gt;&lt;br&gt;
+   Obydwa elementy służą jedynie do wyodrębniania części struktury dokumentu, aby docelowo &lt;br&gt;
+   na przykład poprzez arkusze styli osiągnąć zamierzony wygląd strony. &lt;br&gt;
+   Span'em wyodrębniamy elementy liniowe (najczęściej fragmenty tekstu) a divem blokowe &lt;br&gt;
+   (blokowe elementy, większe fragmenty struktury składające się na układ strony) &lt;br&gt;
+   Dodatkowo DIV domyślnie jest wyświetlany w bloku. Natomiast SPAN w linii. &lt;br&gt;
+   &lt;h2&gt;Rodzaje elementów/tagów ze względu na sposób wyświetlania w przeglądarce. &lt;/h2&gt;
+   &nbsp;1. liniowe  &lt;span&gt;, &lt;em&gt;, &lt;strong&gt;
+   &nbsp;2. blokowe  &lt;div&gt;, &lt;p&gt;, &lt;article&gt;
+   &nbsp;3. liniowo-blokowe  &lt;input&gt;, &lt;textarea&gt;
+    &lt;u&gt;Elementy liniowe&lt;/u&gt; nie spowodują przejścia do nowej linii, będą wyświetlać się obok siebie, w &lt;br&gt;
+   jednej linii. Domyślnie, elementom liniowym przeglądarka ustawia właściwość "display" na &lt;br&gt;
+   "inline".&lt;br&gt;
+    &lt;u&gt;Elementy blokowe&lt;/u&gt; z kolei będą zachowywać się jak pudełka, które ustawiasz jeden pod &lt;br&gt;
+   drugim, a więc nigdy nie wyświetlą się obok siebie. Domyślnie, elementom blokowym &lt;br&gt;
+   przeglądarka ustawia właściwość "display" na "block", &lt;br&gt; 
+    &lt;u&gt;Elementy liniowo-blokowe&lt;/u&gt; z kolei będą zachowywać się jak liniowe, jeśli chodzi o &lt;br&gt;
+   położenie (a więc wyświetlać będą się obok siebie), natomiast różnią się od nich tym, że &lt;br&gt;
+    możesz nadać im różne wielkości. Ma to sens, np. wyświetla się jako duży &lt;br&gt;
+   prostokąt i zdecydowanie "wychodzi" poza pojedynczą linijkę tekstu. Domyślnie, elementom &lt;br&gt;
+   liniowo blokowym przeglądarka ustawia właściwość "display" na "inline-block". &lt;br&gt;
+   &lt;/body&gt;
+   &lt;/html&gt;
+   &lt;!--Daniil Yaremenko --&gt;
+   
+</body>
+</html>

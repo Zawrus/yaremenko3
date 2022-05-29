@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+ <head>
+    <meta charset="utf-8">
+    <title>zad8</title>
+ </head>
+<body>
+    <h3>HTML:</h3> 
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pl-PL"&gt;
+ &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;zad8&lt;/title&gt;
+    &lt;style&gt;
+div{
+   border: 1px solid black;
+padding:6px;
+}
+
+    &lt;/style&gt;
+ &lt;/head&gt;
+&lt;body&gt;
+&lt;h2&gt;III sposób podłączania styli do strony.&lt;/h2&gt;
+ &lt;h3&gt;Wewnętrzny arkusz stylów:&lt;/h3&gt;
+&lt;u&gt;Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami &lt;head&gt; a
+&lt;/head&gt;).&lt;/u&gt; Można go zastosować, gdy elementy które pragniemy poddać formatowaniu, &lt;br&gt;
+występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż &lt;br&gt;
+domyślne). &lt;br&gt;
+&lt;b&gt;Wewnętrzny arkusz stylów składnia teoretyczna:&lt;/b&gt; &lt;br&gt;
+&lt;div&gt;
+&lt;head&gt;
+(...)
+&lt;style type="text/css"&gt;
+ /* &lt;br&gt;
+ selektor1 {cecha: wartość; cecha2: wartość2... } &lt;br&gt;
+ selektor2 { cecha: wartość; cecha2: wartość2... } &lt;br&gt;
+ (...) &lt;br&gt;
+ */ &lt;br&gt;
+ &lt;/style&gt;
+(...)
+&lt;/head&gt;
+&lt;/div&gt;
+gdzie: w sposób wyróżniony (pogrubieniem) zaznaczono elementy składowe wewnętrznego &lt;br&gt;
+arkusza stylów. Natomiast w miejsce kropek (...) można wpisać dalsze polecenia. &lt;br&gt;
+&lt;b&gt;Selektorem&lt;/b&gt; może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka &lt;br&gt;
+tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi &lt;br&gt;
+znacznikami, nadajemy atrybuty formatowania opisane w arkuszu. &lt;br&gt;
+Jako &lt;b&gt;"cecha"&lt;/b&gt; (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty &lt;br&gt;
+formatowania nam chodzi (opisane w kolejnych rozdziałach). &lt;br&gt;
+Natomiast jako wyraz &lt;b&gt;"wartość"&lt;/b&gt; wpisujemy dokładną wartość atrybutu. &lt;br&gt;
+Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy &lt;br&gt;
+rozdzielone średnikami. &lt;br&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre>
+</body>
+</html>
